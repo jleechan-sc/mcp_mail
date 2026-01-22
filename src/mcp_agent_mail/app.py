@@ -912,8 +912,8 @@ def build_mcp_server() -> FastMCP:
             archive,
             frontmatter,
             body_md,
-            [original_sender.name],
             sender.name,
+            [original_sender.name],
             [],
         )
 
